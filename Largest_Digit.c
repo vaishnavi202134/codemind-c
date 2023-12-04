@@ -10,10 +10,7 @@ int main()
     while(n>0) 
 	{
         d=n%10;
-		if(d>ld) 
-		{
-            ld=d;
-        }
+		if(d>ld)  ld=d;
 		n/=10;
     }
     printf("%d",ld);
